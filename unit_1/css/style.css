@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    background-image: url("file://patientcoatlanta.github.io/unit_1/images/desktophero.jpeg");
 }
 
 h1 {
@@ -16,5 +17,5 @@ p {
     font-family: Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
