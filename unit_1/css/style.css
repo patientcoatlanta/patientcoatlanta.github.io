@@ -13,6 +13,13 @@ h1 {
     text-transform: lowercase;
 }
 
+h3 {
+    color: #616161;
+    font-size: 48px;
+    font-weight: 200;
+    text-transform: lowercase;
+}
+
 p {
     color: #616161;
     font-size: 24px;
