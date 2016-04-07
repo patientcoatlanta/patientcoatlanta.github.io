@@ -1,20 +1,20 @@
 body {
+    background:
+    background-size:cover;
     background-color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 h1 {
     color: #1aa951;
-    font-family: Arial, sans-serif;
     font-size: 48px;
     font-weight: 200;
-    text-align: center;
     text-transform: lowercase;
 }
 
 p {
     color: #616161;
-    font-family: Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
-    text-align: center;
 }
