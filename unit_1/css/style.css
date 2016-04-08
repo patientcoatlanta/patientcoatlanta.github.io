@@ -12,6 +12,12 @@ h1 {
     text-transform: lowercase;
 }
 
+h3 {
+    color: #616161;
+    font-size: 36px;
+    font-weight: 400;
+}
+
 p {
     color: #616161;
     font-size: 24px;
