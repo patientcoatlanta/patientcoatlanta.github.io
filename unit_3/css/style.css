@@ -6,48 +6,50 @@
 body {
     background: url('../images/desktophero.jpeg');
     background-size: cover;
-    font-family: Arial, sans-serif;
     text-align: center;
+    font-family: Arial, sans-serif;
+
 }
 
 h1 {
-    color: #1aa951;
     font-size: 48px;
     font-weight: 200;
     text-transform: lowercase;
+    color: #1aa951;
 }
 
 p {
-    color: #616161;
     font-size: 24px;
     font-weight: 400;
+    color: #616161;
 }
 
 #slogan {
-    color: #616161;
     font-size: 24px;
     font-weight: 400;
+    color: #616161;
 }
 
 .supporting-text {
-    color: #616161;
     font-size: 14px;
     font-weight: 300;
+    color: #616161;
 }
+
 .site-feature-list { 
     list-style-type: none;
 }
 
 .features {
-    color: #616161;
+    list-style-type: none;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    list-style-type: none;
+    color: #616161;
 }
 
 #footer {
-    color: #616161;
     font-size: 14px;
     font-weight: 400;
+    color: #616161;
 }
