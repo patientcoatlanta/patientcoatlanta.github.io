@@ -12,23 +12,25 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-header {
-    display: block;
-}
 
-nav {    
-    background-color: #1aa951;
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
     background-size: cover;
-}
-
-img {
-    display: block;
-    margin: 1em auto;
-}
-
-#menu {
     text-align: center;
-    display: block;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#top-logo {
+    background-color: #1aa951;
+    display: inline-block;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    width: 15%;
 }
 
 .menu-link {
@@ -40,8 +42,10 @@ img {
     margin: 1em;
 }
 
-#heading {    
-    background-color: 0e0e0e; 
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 h1 {   
@@ -60,13 +64,33 @@ h1 {
     color: #616161;
     margin: 2em 2em 5em;
     padding: 5px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
     text-align: center;
+    border: 2px solid white;
 }
 
-h3 {   
+main {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+#logo-icon {
+    text-align: center;
+    width: 10%;
+}
+
+#gear-icon {
+    text-align: center;
+    width: 5%;
+}
+
+#people-icon {
+    text-align: center;
+    width: 5%;
+}
+
+.section-title {   
     margin: 1em;
     text-align: center;
     font-size: 18px;
@@ -76,7 +100,9 @@ h3 {
 }
 
 footer {
-    background-color: #616161;
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
     display: block;
 }
 
@@ -100,4 +126,5 @@ footer {
     color: #fff;
     display: inline-block;
     margin: .1em;
+    padding: 5px 0px 5px 5px;
 }
