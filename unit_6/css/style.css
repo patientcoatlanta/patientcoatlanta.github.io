@@ -22,12 +22,20 @@ nav {
     background-color: #E8C66A;
     background-size: cover;
     border: 1px black solid;
-    display: inline-block;
     left: 0;
     padding: 20px;
     position: fixed;
     text-align: center;
     top: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
 }
 
 #top-logo {
@@ -41,10 +49,12 @@ nav {
 .menu-link {
     color: #fff;
     display: inline-block;
+    float: left;
     font-size: 14px;
     font-weight: 400;
     margin: 1em;
     text-align: center;
+    text-decoration: none;
 }
 
 h1 {   
@@ -71,12 +81,29 @@ main {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+}
 
+.section-title {   
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1em;
+    padding: 5px;
+    text-align: center;    
+    text-decoration: none;
+}
+
+.column {
+    float: left;
 }
 
 #logo-icon {
     text-align: center;
     width: 10%;
+}
+
+#getting-started-with-patientco {
+    float: left;
 }
 
 #gear-icon {
@@ -87,15 +114,6 @@ main {
 #people-icon {
     text-align: center;
     width: 5%;
-}
-
-.section-title {   
-    color: #616161;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 1em;
-    padding: 5px;
-    text-align: center;
 }
 
 footer {
@@ -111,11 +129,11 @@ footer {
 
 .footer-link {
     color: #fff;
-    display: inline-block;
     font-size: 14px;
     font-weight: 400;
     margin: 1em;
     text-align: center;
+    text-decoration: none;
 }
 
 #copyright {
