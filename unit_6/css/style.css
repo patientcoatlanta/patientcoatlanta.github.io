@@ -39,7 +39,6 @@ nav {
 }
 
 #top-logo {
-    background-color: #1aa951;
     display: inline-block;
     padding: 5px 0px 5px 0px;
     text-align: left;
@@ -55,6 +54,19 @@ nav {
     margin: 1em;
     text-align: center;
     text-decoration: none;
+}
+
+.line {
+    background-color: #fff;
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    width: 0;
+}
+
+.menu-link:hover .line {
+    width: 100%;
+    transition: width 0.4s ease;
 }
 
 h1 {   
@@ -85,35 +97,37 @@ main {
 
 .section-title {   
     color: #616161;
+    display: inline-block;
     font-size: 18px;
     font-weight: 400;
-    margin: 1em;
-    padding: 5px;
     text-align: center;    
     text-decoration: none;
+    width: 100%;
 }
 
 .column {
+    width: 33.333%;
     float: left;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
 }
 
 #logo-icon {
     text-align: center;
-    width: 10%;
-}
-
-#getting-started-with-patientco {
-    float: left;
+    width: 20%;
 }
 
 #gear-icon {
     text-align: center;
-    width: 5%;
+    width: 10%;
 }
 
 #people-icon {
     text-align: center;
-    width: 5%;
+    width: 15%;
 }
 
 footer {
