@@ -1,0 +1,161 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    background-size: cover;
+    border: 1px black solid;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+#top-logo {
+    display: inline-block;
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+    width: 15%;
+}
+
+.menu-link {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.line {
+    background-color: #fff;
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    width: 0;
+}
+
+.menu-link:hover .line {
+    width: 100%;
+    transition: width 0.4s ease;
+}
+
+h1 {   
+    color: #1aa951;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: .1em;
+    margin: 3em 0 2em;
+    padding: 5px;
+    text-align: center;
+}
+
+#heading-supporting-text {
+    border: 2px solid white;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2em 2em 5em;
+    padding: 5px;
+    text-align: center;
+}
+
+main {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.section-title {   
+    color: #616161;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;    
+    text-decoration: none;
+    width: 100%;
+}
+
+.column {
+    width: 33.333%;
+    float: left;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
+}
+
+#logo-icon {
+    text-align: center;
+    width: 70px;
+}
+
+#gear-icon {
+    text-align: center;
+    width: 50px;
+}
+
+#people-icon {
+    text-align: center;
+    width: 50px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    display: block;
+    padding: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+#copyright {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin: .1em;
+    padding: 5px 0px 5px 5px;
+    text-align: left;
+}
