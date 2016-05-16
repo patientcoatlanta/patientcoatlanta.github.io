@@ -9,21 +9,22 @@
 }
 
 body {
-    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 header {
     background-color: #FFED74;
     border: 1px black solid;
-    padding: 20px;
+    padding: 1.5em;
 }
 
 nav {
     background-color: #E8C66A;
     background-size: cover;
+    width: 100%;
     border: 1px black solid;
     left: 0;
-    padding: 20px;
+    padding: 1.5em;
     position: fixed;
     text-align: center;
     top: 0;
@@ -42,14 +43,14 @@ nav {
     display: inline-block;
     padding: 5px 0px 5px 0px;
     text-align: left;
-    width: 15%;
+    width: 200px;
 }
 
 .menu-link {
     color: #fff;
     display: inline-block;
     float: left;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 400;
     margin: 1em;
     text-align: center;
@@ -69,36 +70,41 @@ nav {
     transition: width 0.4s ease;
 }
 
+#heading {
+    width: 100%
+}
+
 h1 {   
     color: #1aa951;
-    font-size: 40px;
+    font-size: 3em;
     font-weight: 100;
     letter-spacing: .1em;
     margin: 3em 0 2em;
-    padding: 5px;
+    padding: .2em;
     text-align: center;
 }
 
 #heading-supporting-text {
     border: 2px solid white;
     color: #616161;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     margin: 2em 2em 5em;
-    padding: 5px;
+    padding: .2em;
     text-align: center;
 }
 
 main {
     background-color: #FFE2B8;
     border: 1px black solid;
-    padding: 20px;
+    padding: 1.5em;
+    width: 100%;
 }
 
 .section-title {   
     color: #616161;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 400;
     text-align: center;    
     text-decoration: none;
@@ -134,7 +140,8 @@ footer {
     background-color: #FF957E;
     border: 1px black solid;
     display: block;
-    padding: 20px;
+    padding: 1.5em;
+    width: 100%;
 }
 
 #footer {
@@ -143,7 +150,7 @@ footer {
 
 .footer-link {
     color: #fff;
-    font-size: 14px;
+    font-size: .9em;
     font-weight: 400;
     margin: 1em;
     text-align: center;
@@ -153,9 +160,26 @@ footer {
 #copyright {
     color: #fff;
     display: inline-block;
-    font-size: 14px;
+    font-size: .9em;
     font-weight: 400;
     margin: .1em;
-    padding: 5px 0px 5px 5px;
+    padding: .3em 0px .3em .3em;
     text-align: left;
+}
+
+@media only screen and (max-width: 400px) {
+    nav {
+        display: block;
+        float: none;
+    }
+
+     main {
+        display: block;
+        float: none;
+    }
+
+      footer {
+        display: block;
+        float: none;
+    }
 }
