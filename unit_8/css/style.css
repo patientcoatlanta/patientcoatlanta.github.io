@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
 *,
 *:before,
 *:after {
@@ -9,7 +10,7 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Work Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -38,6 +39,11 @@ nav {
     clear: both;
     height: 0;
     font-size: 0;
+}
+
+i {
+    color: #fff;
+    font-size: 10em;
 }
 
 #top-logo {
@@ -168,7 +174,7 @@ footer {
     text-align: left;
 }
 
-@media only screen and (max-width: 400px) {
+@media screen only and (max-width: 400px) {
     nav {
         display: block;
         float: none;
