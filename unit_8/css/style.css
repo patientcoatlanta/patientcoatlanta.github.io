@@ -15,21 +15,23 @@ body {
 }
 
 header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 1.5em;
+    background-color: #5ec385;
+    position: fixed;
+    padding: 0em 0em 1em 0em;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav {
-    background-color: #E8C66A;
-    background-size: cover;
+    background-color: #1aa951;
     width: 100%;
-    border: 1px black solid;
-    left: 0;
     padding: 1.5em;
-    position: fixed;
-    text-align: center;
-    top: 0;
+}
+
+nav a {
+    display: inline-block;
+    float: left;
 }
 
 .clearfix:after {
@@ -47,10 +49,12 @@ i {
 }
 
 #top-logo {
-    display: inline-block;
     padding: 5px 0px 5px 0px;
-    text-align: left;
-    width: 200px;
+    max-width: 200px;
+}
+
+#top-logo img {
+    width: 100%;
 }
 
 .menu-link {
@@ -102,8 +106,6 @@ h1 {
 }
 
 main {
-    background-color: #FFE2B8;
-    border: 1px black solid;
     padding: 1.5em;
     width: 100%;
 }
@@ -130,7 +132,7 @@ main {
 
 #logo-icon {
     text-align: center;
-    width: 70px;
+    width: 80px;
 }
 
 #gear-icon {
@@ -144,8 +146,7 @@ main {
 }
 
 footer {
-    background-color: #FF957E;
-    border: 1px black solid;
+    background-color: #1aa951;
     display: block;
     padding: 1.5em;
     width: 100%;
@@ -174,10 +175,20 @@ footer {
     text-align: left;
 }
 
-@media screen only and (max-width: 400px) {
-    nav {
+.fa-bars {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .menu-link {
+        display: none;
+        width: 100%;
+        clear: both;
+    }
+
+    .fa-bars {
         display: block;
-        float: none;
+        float: right;
     }
 
      main {
@@ -185,7 +196,18 @@ footer {
         float: none;
     }
 
-      footer {
+    .column {
+        width: 100%;
+        padding: 2em;
+    }
+
+    footer {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-link {
         display: block;
         float: none;
     }
